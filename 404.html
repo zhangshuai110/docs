@@ -1,26 +1,14 @@
----
-title: 'Page Not Found...'
-layout: page
----
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8;"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="robots" content="all" />
+  <meta name="robots" content="index,follow"/>
+</head>
+<body>
 
-<script>
-	var posts =
-	{
-		{% for post in site.posts %} {% if post.thread %}
-		"{{ post.thread }}" : "{{ post.url }}",{% endif %}{% endfor %}
-	};
+<script type="text/javascript" src="http://www.qq.com/404/search_children.js" charset="utf-8" homePageUrl="www.ezlippi.com" homePageName="回到我的主页"></script>
 
-	var path = location.pathname;
-	if(path.charAt(path.length - 1) == '/') path = path.substring(0, path.length - 1);
-	var name = path.substring(path.lastIndexOf('/') + 1);
-	var url = posts[name];
-	if (url)
-	{
-		document.write("您访问的文章已经转移到新网址，正在为您转跳到 <a href=" + url + ">" + url + "</a>");
-		location.href = url;
-	}
-	else
-	{
-          document.write("<iframe scrolling='no' frameborder='0' src='/image/404.jpg' width='640' height='462' style='display:block;'></iframe>");
-	}
-</script>
+</body>
+</html>
