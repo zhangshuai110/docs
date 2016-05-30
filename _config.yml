@@ -5,18 +5,18 @@ gems:
   [jekyll-paginate]
 # 作者信息
 author: 
-  name: Anya Lin
-  email: lay.1010@hotmail.com
-  link: http://painterlin.com
-  weibo: http://weibo.com/orangeissweet
-  github: http://github.com/lay1010
-  music: http://site.douban.com/linanya
-  linkedin: https://www.linkedin.com/pub/anya-lin/81/91/232
+  name: zhangshuai
+  email: tozhangshuai@qq.com
+  link: http://meiyou.com
+  weibo: http://weibo.com/lovezhangshuai
+  github: https://github.com/zhangshuai110
+  music: http://meiyou.com
+  linkedin: https://meiyou.com
 
 # 站点信息
-title: 林安亚的博客
-description: My personal blog
-url: http://painterlin.com
+title: 张帅
+description: 张帅
+url: http://meiy.com
 rss_url: /pages/atom.xml
 
 # gavatar头像及Favicon
@@ -25,15 +25,15 @@ favicon: /public/img/deer3.png
 
 # google analytics 设置
 ga:
-  id: UA-54262064-1 
-  url: painterlin.com
+  id:  
+  url: 
 
 # disqus 设置
 disqus:
-  shortname: painterlin
+  shortname: zhangshuai
 
 # 主题设置，自动激活某个标签
-active: 读书
+active: 笔记
 
 # 首页除了最新文章外显示分类
 cates: 
