@@ -18,6 +18,7 @@ title: 张帅
 description: 张帅
 url: http://zhangshuai110.github.io/docs/
 rss_url: /pages/atom.xml
+address: docs/
 
 # gavatar头像及Favicon
 gavatar: /public/img/deer3.png
